@@ -76,7 +76,7 @@ function App() {
   }
 
   return (
-    <div className="App h-screen w-screen flex flex-col items-center bg-slate-500">
+    <div className="App min-h-screen w-screen flex flex-col items-center bg-slate-500">
       {/* Global Container */}
       <div className="div max-w-md w-[448px] mx-auto bg-white">
         {/* Nav Section */}
