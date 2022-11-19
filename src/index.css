@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-container {
+    background-image: url('https://aeonmall-binhduongcanary-en.com/wp-content/uploads/2020/07/menu-meta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    @apply w-7 h-7 cursor-pointer z-10
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.selected {
+    @apply bg-zinc-300
+}
