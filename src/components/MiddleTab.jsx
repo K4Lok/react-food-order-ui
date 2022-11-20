@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function MiddleTab() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const translateList = [
+    '-translate-x-[150px]',
+    '',
+    'translate-x-[150px]',
+  ] 
+
   return (
     <>
         {/* Store Info Container */}
@@ -23,11 +31,11 @@ export default function MiddleTab() {
         
         {/* Switching Tab */}
         <div className="relative flex flex-row items-center justify-around pt-8 pb-4 font-bold text-lg border-b-[1px] border-gray-100">
-            <button>點餐</button>
-            <button>評價</button>
-            <button>資料</button>
+            <button onClick={() => setCurrentIndex(0)} className={`${currentIndex == 0 ? 'text-black' : 'text-zinc-400'}`}>點餐</button>
+            <button onClick={() => setCurrentIndex(1)} className={`${currentIndex == 1 ? 'text-black' : 'text-zinc-400'}`}>評價</button>
+            <button onClick={() => setCurrentIndex(2)} className={`${currentIndex == 2 ? 'text-black' : 'text-zinc-400'}`}>資料</button>
             {/* Shifting Underline */}
-            <div className="absolute w-6 border-b-4 border-orange-400 rounded-full translate-y-5"></div>
+            <div className={`${translateList[currentIndex]} absolute w-6 border-b-4 border-orange-400 rounded-full translate-y-5 transition duration-300`}></div>
           </div>
 
           {/* Image Section */}

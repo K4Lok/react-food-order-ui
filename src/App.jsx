@@ -60,7 +60,7 @@ function App() {
     const foodsData = _.map(food => {
       return {
         ...food,
-        quantity: 1
+        quantity: 0
       }
     });
     setFoods(foodsData);
@@ -116,6 +116,11 @@ function App() {
         ...prev.slice(selectedIndex + 1, prev.length)
       ]
     });
+  }
+
+  const handleSubmitOrder = () => {
+    setShowSelectModal(false);
+    setShowCartModal(false);
   }
 
   return (
@@ -223,7 +228,7 @@ function App() {
                     }
                     </span></span>
                   </div>
-                <button className="py-3 px-4 bg-[#FA6B16] text-white font-bold rounded-lg">提交訂單</button>
+                <button onClick={(e) => {e.stopPropagation();handleSubmitOrder();}} className="py-3 px-4 bg-[#FA6B16] text-white font-bold rounded-lg">提交訂單</button>
               </div>
             </div>
           </div>
