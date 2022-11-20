@@ -1,185 +1,266 @@
 [
-    {
-      "title": "超值早晨套餐",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-10-e1595468904762.png",
-      "foods": [
-        {
-          "name": "珍寶套餐",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-10-e1595468904762.png"
-        },
-        {
-          "name": "精選早晨套餐",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-3.png"
-        },
-        {
-          "name": "熱香餅精選套餐",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-4.png"
-        },
-        {
-          "name": "魚柳飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-1.png"
-        },
-        {
-          "name": "火腿扒芝士飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-2.png"
-        },
-        {
-          "name": "豬柳蛋漢堡™",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-7.png"
-        },
-        {
-          "name": "豬柳漢堡™",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-8.png"
-        },
-        {
-          "name": "煙肉蛋漢堡®",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-9-e1595468827108.png"
-        },
-        {
-          "name": "板燒雞腿扭扭粉",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_AM_EVB-12.png"
-        },
-        {
-          "name": "豬柳蛋扭扭粉",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-5.png"
-        },
-        {
-          "name": "火腿扒蛋扭扭粉",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_AM_EVB-13.png"
-        },
-        {
-          "name": "醒神超值選 - 豬柳蛋漢堡™",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/BF180516_EK_AM_MiniEVB-2.png"
-        },
-        {
-          "name": "醒神超值選 - 火腿扒芝士飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-2.png"
-        },
-        {
-          "name": "醒神超值選 - 麥芝蛋飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-3.png"
-        },
-        {
-          "name": "醒神超值選 - 魚柳飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-1.png"
-        },
-        {
-          "name": "醒神超值選 - 炒雙蛋飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080235_2022-mini-EVB-Local-Milk-Tea_Scrambled-egg-combo-crop-site_500x500.png"
-        }
-      ]
-    },
-    {
-      "title": "超值套餐",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-4.png",
-      "foods": [
-        {
-          "name": "麥樂雞® (6/9件)",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-2-1.png"
-        },
-        {
-          "name": "脆香雞翼(4件)",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-4-1-e1598424526915.png"
-        },
-        {
-          "name": "脆辣雞腿飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-3.png"
-        },
-        {
-          "name": "板燒雞腿飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M.png"
-        },
-        {
-          "name": "魚柳飽",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-3.png"
-        },
-        {
-          "name": "巨無霸®",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-4.png"
-        },
-        {
-          "name": "雙層芝士孖堡™",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-5.png"
-        },
-        {
-          "name": "豬柳蛋漢堡™",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_CS_EVM_500x500-7.jpg"
-        },
-        {
-          "name": "凱撒沙律",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_CS_EVM_500x500-9.jpg"
-        },
-        {
-          "name": "麥炸雞(原味)(2件)",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/12/BIC-Meal-200x200-1.png"
-        },
-        {
-          "name": "蜜糖BBQ麥炸雞(2件)",
-          "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/12/Honey-BIC-Meal-200x200-1.png"
-        }
-      ]
-    },
-    {
-      "title": "開心樂園餐",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/happy-meal-logo.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "超值選",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/MCD_GLBL21_FiletOFish_3Q-original.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "飲品",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MDS200401_CS_BevG_200-12.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "早晨拼盤及扭扭粉",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_SC_AM-ALC_500-13.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "飽類",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/MCD_GLBL21_BigMac_A_3Q_1-original.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "甜品",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/mcFlurry_200x200.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "McCafé",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/11/McCafe_Latte_R2_Artpaepr.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "沙律",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_SC_EVM_ALC-9.png",
-      "foods": [
-        
-      ]
-    },
-    {
-      "title": "其他",
-      "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/McDonalds-Fries-022-hero.png",
-      "foods": [
-        
-      ]
-    }
-  ]
+  {
+    "title": "超值早晨套餐",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-10-e1595468904762.png",
+    "foods": [
+      {
+        "id": 1,
+        "name": "珍寶套餐",
+        "price": 40,
+        "sold_record": 57,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-10-e1595468904762.png"
+      },
+      {
+        "id": 2,
+        "name": "精選早晨套餐",
+        "price": 46,
+        "sold_record": 2,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-3.png"
+      },
+      {
+        "id": 3,
+        "name": "熱香餅精選套餐",
+        "price": 52,
+        "sold_record": 4,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-4.png"
+      },
+      {
+        "id": 4,
+        "name": "魚柳飽",
+        "price": 51,
+        "sold_record": 17,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-1.png"
+      },
+      {
+        "id": 5,
+        "name": "火腿扒芝士飽",
+        "price": 50,
+        "sold_record": 44,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-2.png"
+      },
+      {
+        "id": 6,
+        "name": "豬柳蛋漢堡™",
+        "price": 51,
+        "sold_record": 7,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-7.png"
+      },
+      {
+        "id": 7,
+        "name": "豬柳漢堡™",
+        "price": 55,
+        "sold_record": 54,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-8.png"
+      },
+      {
+        "id": 8,
+        "name": "煙肉蛋漢堡®",
+        "price": 51,
+        "sold_record": 61,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-9-e1595468827108.png"
+      },
+      {
+        "id": 9,
+        "name": "板燒雞腿扭扭粉",
+        "price": 52,
+        "sold_record": 50,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_AM_EVB-12.png"
+      },
+      {
+        "id": 10,
+        "name": "豬柳蛋扭扭粉",
+        "price": 30,
+        "sold_record": 37,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_EVB_NoNumber-5.png"
+      },
+      {
+        "id": 11,
+        "name": "火腿扒蛋扭扭粉",
+        "price": 42,
+        "sold_record": 2,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/EK_AM_EVB-13.png"
+      },
+      {
+        "id": 12,
+        "name": "醒神超值選 - 豬柳蛋漢堡™",
+        "price": 48,
+        "sold_record": 41,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/BF180516_EK_AM_MiniEVB-2.png"
+      },
+      {
+        "id": 13,
+        "name": "醒神超值選 - 火腿扒芝士飽",
+        "price": 30,
+        "sold_record": 70,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-2.png"
+      },
+      {
+        "id": 14,
+        "name": "醒神超值選 - 麥芝蛋飽",
+        "price": 43,
+        "sold_record": 43,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-3.png"
+      },
+      {
+        "id": 15,
+        "name": "醒神超值選 - 魚柳飽",
+        "price": 40,
+        "sold_record": 51,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080256_2022-Best-Burger_Website-Meal-Images_500x500-1.png"
+      },
+      {
+        "id": 16,
+        "name": "醒神超值選 - 炒雙蛋飽",
+        "price": 41,
+        "sold_record": 34,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/09/01MCD22080235_2022-mini-EVB-Local-Milk-Tea_Scrambled-egg-combo-crop-site_500x500.png"
+      }
+    ]
+  },
+  {
+    "title": "超值套餐",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-4.png",
+    "foods": [
+      {
+        "id": 17,
+        "name": "麥樂雞® (6/9件)",
+        "price": 55,
+        "sold_record": 10,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-2-1.png"
+      },
+      {
+        "id": 18,
+        "name": "脆香雞翼(4件)",
+        "price": 41,
+        "sold_record": 57,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-4-1-e1598424526915.png"
+      },
+      {
+        "id": 19,
+        "name": "脆辣雞腿飽",
+        "price": 55,
+        "sold_record": 51,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M-3.png"
+      },
+      {
+        "id": 20,
+        "name": "板燒雞腿飽",
+        "price": 39,
+        "sold_record": 49,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MS200605_EK_EVM_M.png"
+      },
+      {
+        "id": 21,
+        "name": "魚柳飽",
+        "price": 34,
+        "sold_record": 8,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-3.png"
+      },
+      {
+        "id": 22,
+        "name": "巨無霸®",
+        "price": 55,
+        "sold_record": 50,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-4.png"
+      },
+      {
+        "id": 23,
+        "name": "雙層芝士孖堡™",
+        "price": 49,
+        "sold_record": 38,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/01MCD22080256_2022-Best-Burger_Meal-Product-Images_500x500-5.png"
+      },
+      {
+        "id": 24,
+        "name": "豬柳蛋漢堡™",
+        "price": 52,
+        "sold_record": 40,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_CS_EVM_500x500-7.jpg"
+      },
+      {
+        "id": 25,
+        "name": "凱撒沙律",
+        "price": 45,
+        "sold_record": 41,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_CS_EVM_500x500-9.jpg"
+      },
+      {
+        "id": 26,
+        "name": "麥炸雞(原味)(2件)",
+        "price": 30,
+        "sold_record": 44,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/12/BIC-Meal-200x200-1.png"
+      },
+      {
+        "id": 27,
+        "name": "蜜糖BBQ麥炸雞(2件)",
+        "price": 49,
+        "sold_record": 61,
+        "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/12/Honey-BIC-Meal-200x200-1.png"
+      }
+    ]
+  },
+  {
+    "title": "開心樂園餐",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/happy-meal-logo.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "超值選",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/MCD_GLBL21_FiletOFish_3Q-original.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "飲品",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MDS200401_CS_BevG_200-12.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "早晨拼盤及扭扭粉",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_SC_AM-ALC_500-13.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "飽類",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/08/MCD_GLBL21_BigMac_A_3Q_1-original.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "甜品",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/mcFlurry_200x200.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "McCafé",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2022/11/McCafe_Latte_R2_Artpaepr.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "沙律",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/04/MDS200401_SC_EVM_ALC-9.png",
+    "foods": [
+      
+    ]
+  },
+  {
+    "title": "其他",
+    "imgUrl": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/McDonalds-Fries-022-hero.png",
+    "foods": [
+      
+    ]
+  }
+]
