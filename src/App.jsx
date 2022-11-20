@@ -13,6 +13,7 @@ function App() {
   
   const [selectedFoodIndex, setSelectedFoodIndex] = useState(null);
   const [showSelectModal, setShowSelectModal] = useState(false);
+  const [showCartModal, setShowCartModal] = useState(false);
 
   const rightScrollContainerRef = useRef();
 
@@ -59,7 +60,7 @@ function App() {
     const foodsData = _.map(food => {
       return {
         ...food,
-        quantity: 0
+        quantity: 1
       }
     });
     setFoods(foodsData);
@@ -102,16 +103,17 @@ function App() {
     setShowSelectModal(true);
   }
 
-  const handleCartItem = (number) => {
+  const handleCartItem = (number, selectedIndex=selectedFoodIndex) => {
+    
     // https://stackoverflow.com/questions/63362057/react-setstate-with-certain-index - Genius approach
     setFoods(prev => {
       return [
-        ...prev.slice(0, selectedFoodIndex),
+        ...prev.slice(0, selectedIndex),
         {
-          ...prev[selectedFoodIndex],
-          quantity: prev[selectedFoodIndex].quantity + number
+          ...prev[selectedIndex],
+          quantity: prev[selectedIndex].quantity + number
         },
-        ...prev.slice(selectedFoodIndex + 1, prev.length)
+        ...prev.slice(selectedIndex + 1, prev.length)
       ]
     });
   }
@@ -198,13 +200,13 @@ function App() {
             </div>
 
             {/* Cart Section */}
-            <div className="absolute bottom-6 w-full px-6">
-              <div className="relative flex justify-between items-center p-1 inset-0 h-full w-full bg-[#3F3E5D] rounded-lg">
+            <div className="absolute bottom-6 w-full px-4 z-20">
+              <div onClick={() => setShowCartModal(true)} className=" relative flex justify-between items-center p-1 inset-0 h-full w-full bg-[#3F3E5D] rounded-lg cursor-pointer">
                 <div className="flex">
                   {/* <svg className="w-12 h-12 text-[#FA6B16] -rotate-[14deg]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                   </svg> */}
-                  <svg className="w-10 h-10 text-[#FA6B16] -rotate-[8deg] translate-x-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white">
+                  <svg className="w-10 h-10 text-[#FA6B16] -rotate-[8deg] translate-x-1 select-none cursor-default" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                   </svg>
 
@@ -229,7 +231,7 @@ function App() {
 
         {/* Absolute Food Selection Modal */}
         <section id="food-select-modal">
-          <div onClick={() => setShowSelectModal(false)}
+          <div onClick={() => {setShowSelectModal(false); setSelectedFoodIndex(null);}}
             className={`${showSelectModal ? 'block' : 'hidden'} absolute inset-0 bg-black/50 z-10 px-12 flex items-center`}
           >
             <div onClick={e => {e.stopPropagation()}} className="relative max-w-sm w-full bg-stone-50 rounded-md overflow-hidden">
@@ -268,6 +270,46 @@ function App() {
           </div>
         </section>
 
+        {/* Absolute Cart Modal */}
+        <section id="cart-modal">
+          <div onClick={() => setShowCartModal(false)} className={`${showCartModal ? 'flex' : 'hidden'} absolute inset-0 bg-black/50 z-10 flex items-center`}>
+              <div onClick={e => e.stopPropagation()} className={`absolute bottom-0 h-96 w-full bg-white rounded-t-lg p-4 space-y-4`}>
+                <div className="flex justify-between">
+                  <span>外賣盒</span>
+                </div>
+                <ul className="h-[70%] w-full overflow-y-auto overflow-x-hidden scrollbar-hide">
+                  {foods.filter(food => {
+                    return food.quantity > 0
+                  }).map(item => {
+                    return (
+                      <li key={item.id}>
+                        <div className="flex space-x-3">
+                          {/* Item - Left */}
+                          <img className="w-24 h-24 bg-zinc-50 p-2 rounded-md" src={item.imgUrl} alt="" />
+                          {/* Item - Right */}
+                          <div className="grow flex flex-col space-y-1">
+                            <h5 className="font-semibold line-clamp-2">{item.name}</h5>
+                            <p className="text-xs line-clamp-1">此套餐包括主食3份，小食4份及aaaaaaa</p>
+                            <p className="text-xs text-gray-400">月售{item.sold_record}</p>
+                            <div className="flex justify-between">
+                              <span className="text-[#FA6B16] text-xs font-semibold flex items-center">MOP<span className="text-sm px-1 -translate-y-[1px]">{item.price}</span><span className="font-normal">起</span></span>
+                              <div className="relative flex items-center">
+                                <div className="flex items-center space-x-2">
+                                  <button onClick={() => {handleCartItem(-1, item.id-1)}} className="text-2xl font-bold text-[#e08856] active:text-[#975c3a] h-10">-</button>
+                                  <p className="text-lg font-bold h-6">{foods[item.id-1].quantity}</p>
+                                  <button onClick={() => {handleCartItem(1, item.id-1)}} className="text-xl font-extrabold text-[#FA6B16] active:text-[#975c3a] h-10 ">+</button>
+                                </div> 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+          </div>
+        </section>
       </div>
     </div>
   )
