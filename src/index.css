@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+    html {
+        @apply bg-zinc-300
+    }
+}
+
 .nav-container {
     background-image: url('https://aeonmall-binhduongcanary-en.com/wp-content/uploads/2020/07/menu-meta.jpg');
     background-repeat: no-repeat;
