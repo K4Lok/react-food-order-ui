@@ -205,7 +205,7 @@ function App() {
             </div>
 
             {/* Cart Section */}
-            <div className="fixed bottom-6 w-full px-11 z-20 left-0 mx-auto">
+            <div className="fixed bottom-6 w-full max-w-md px-4 z-20 mx-auto">
               <div onClick={() => setShowCartModal(true)} className=" relative flex justify-between items-center p-1 inset-0 h-full w-full bg-[#3F3E5D] rounded-lg cursor-pointer">
                 <div className="flex">
                   {/* <svg className="w-12 h-12 text-[#FA6B16] -rotate-[14deg]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
