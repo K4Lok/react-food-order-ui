@@ -124,9 +124,9 @@ function App() {
   }
 
   return (
-    <div className="App min-h-screen w-screen flex flex-col items-center bg-slate-500 overflow-hidden">
+    <div className="App min-h-screen w-screen flex flex-col items-center bg-slate-500">
       {/* Global Container */}
-      <div className="relative div max-w-md w-full mx-auto bg-white">
+      <div className="relative max-w-md w-full mx-auto bg-white">
         {/* Nav Section */}
         <Header />
 
@@ -277,7 +277,7 @@ function App() {
 
         {/* Absolute Cart Modal */}
         <section id="cart-modal">
-          <div onClick={() => setShowCartModal(false)} className={`${showCartModal ? 'flex visible' : 'invisible'} absolute inset-0 bg-black/50 z-10 items-center`}>
+          <div onClick={() => setShowCartModal(false)} className={`${showCartModal ? 'flex visible' : 'invisible'} absolute inset-0 bg-black/50 z-10 items-center overflow-hidden`}>
               <div onClick={e => e.stopPropagation()} className={`${showCartModal ? 'translate-y-0' : 'translate-y-[100%]'} absolute bottom-0 h-96 w-full bg-white rounded-t-lg p-4 space-y-4 transform transition duration-500`}>
                 <div className="flex justify-between">
                   <span>外賣盒</span>
